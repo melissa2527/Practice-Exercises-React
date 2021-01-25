@@ -1,0 +1,27 @@
+.quote-container {
+    background-image: url('https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2018/10/taking-beautiful-photos-of-nature-1.jpg?resize=1500%2C1000&ssl=1');
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.quote-box {
+    width: 50rem;
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 25rem;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    transition: all 0.3s ease-in;
+    position: fixed;
+    p {
+        color:rgba($color: #000000, $alpha: 1.0);
+    }
+    .quote {
+        font-style: italic;
+        font-size: 2em;
+    }
+}
+
+
